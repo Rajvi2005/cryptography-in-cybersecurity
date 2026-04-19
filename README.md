@@ -7,7 +7,7 @@ Article on the Role of Cryptography in Modern Cybersecurity
 
 ## Introduction
 
-Every time you open a banking app, send a WhatsApp message, or enter a password online, an invisible shield protects you. That shield has a name — **cryptography**. In a world where cyber threats grow more sophisticated every day, cryptography stands as the most fundamental pillar of cybersecurity. Yet, most people use it without ever knowing it exists.
+Every time you open a banking app, send a WhatsApp message, or enter a password online, an invisible shield protects you. That shield has a name and that is **cryptography**. In a world where cyber threats grow more sophisticated every day, cryptography stands as the most fundamental pillar of cybersecurity. Yet, most people use it without ever knowing it exists.
 
 This article explores what cryptography is, why it matters in cybersecurity, the different types of cryptographic techniques, and how they are used in the real world to keep our digital lives secure.
 
@@ -15,9 +15,9 @@ This article explores what cryptography is, why it matters in cybersecurity, the
 
 ## What Is Cryptography?
 
-Cryptography is the science of securing information by transforming readable data — known as **plaintext** — into an unreadable format called **ciphertext**, using mathematical algorithms and secret keys. Only someone with the correct key can reverse this transformation and read the original data.
+Cryptography is the science of securing information by transforming readable data which is known as **plaintext** into an unreadable format called **ciphertext**, using mathematical algorithms and secret keys. Only someone with the correct key can reverse this transformation and read the original data.
 
-The word itself comes from the Greek words *kryptos* (hidden) and *graphein* (writing). While cryptography has existed for thousands of years — from Julius Caesar's simple substitution ciphers to the Nazi Enigma machine during World War II — modern cryptography is built on complex mathematical problems that even the most powerful computers struggle to solve.
+The word itself comes from the Greek words *kryptos* (hidden) and *graphein* (writing). While cryptography has existed for thousands of years , from Julius Caesar's simple substitution ciphers to the Nazi Enigma machine during World War II , modern cryptography is built on complex mathematical problems that even the most powerful computers struggle to solve.
 
 ---
 
@@ -25,13 +25,13 @@ The word itself comes from the Greek words *kryptos* (hidden) and *graphein* (wr
 
 Cryptography serves four essential functions in cybersecurity:
 
-**1. Confidentiality** — It ensures that only authorized parties can access sensitive information. Without encryption, data transmitted over the internet would be exposed to anyone who intercepts it.
+**1. Confidentiality** : It ensures that only authorized parties can access sensitive information. Without encryption, data transmitted over the internet would be exposed to anyone who intercepts it.
 
-**2. Integrity** — Cryptographic hash functions verify that data has not been altered or tampered with during transmission. If even one character changes, the hash value changes completely, alerting the receiver to tampering.
+**2. Integrity** : Cryptographic hash functions verify that data has not been altered or tampered with during transmission. If even one character changes, the hash value changes completely, alerting the receiver to tampering.
 
-**3. Authentication** — Digital certificates and cryptographic signatures verify the identity of users, devices, and servers. This prevents impersonation attacks and man-in-the-middle fraud.
+**3. Authentication** : Digital certificates and cryptographic signatures verify the identity of users, devices, and servers. This prevents impersonation attacks and man-in-the-middle fraud.
 
-**4. Non-Repudiation** — Digital signatures ensure that a sender cannot deny having sent a message or completed a transaction. This is critical in legal and financial contexts.
+**4. Non-Repudiation** : Digital signatures ensure that a sender cannot deny having sent a message or completed a transaction. This is critical in legal and financial contexts.
 
 Together, these four principles form the backbone of all secure digital systems.
 
@@ -45,7 +45,7 @@ In symmetric cryptography, the **same key** is used to both encrypt and decrypt 
 
 The most widely used symmetric algorithm today is the **Advanced Encryption Standard (AES)**, which supports key sizes of 128, 192, or 256 bits. AES is used in Wi-Fi security (WPA2), full-disk encryption, banking applications, and VPNs. An older standard, **DES (Data Encryption Standard)**, has been retired due to its short 56-bit key length, which is now easily cracked.
 
-The main challenge with symmetric cryptography is **key distribution** — how do two parties safely share a secret key if they have never met? This is where asymmetric cryptography comes in.
+The main challenge with symmetric cryptography is **key distribution** , how do two parties safely share a secret key if they have never met? This is where asymmetric cryptography comes in.
 
 ### 2. Asymmetric Cryptography (Public Key)
 
@@ -75,10 +75,10 @@ Hashing is a **one-way cryptographic function** that takes any input and produce
 Cryptography is not just a theoretical concept — it powers the tools we use every day:
 
 - **HTTPS / TLS** — Every time you see a padlock in your browser, TLS (Transport Layer Security) is encrypting the connection using RSA/ECC for key exchange and AES for data encryption.
-- **WhatsApp & Signal** — End-to-end encryption ensures only the sender and receiver can read messages. Even the service provider cannot access message contents.
-- **Bitcoin & Blockchain** — SHA-256 hashing secures transactions, and ECDSA (Elliptic Curve Digital Signature Algorithm) authenticates them.
-- **Digital Signatures** — Software companies sign their products cryptographically so users can verify authenticity before installation.
-- **Password Managers** — Applications like LastPass and Bitwarden use AES-256 to encrypt your password vault.
+- **WhatsApp & Signal** : End-to-end encryption ensures only the sender and receiver can read messages. Even the service provider cannot access message contents.
+- **Bitcoin & Blockchain** : SHA-256 hashing secures transactions, and ECDSA (Elliptic Curve Digital Signature Algorithm) authenticates them.
+- **Digital Signatures** : Software companies sign their products cryptographically so users can verify authenticity before installation.
+- **Password Managers** : Applications like LastPass and Bitwarden use AES-256 to encrypt your password vault.
 
 ---
 
